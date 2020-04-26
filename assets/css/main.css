@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.presentation-title {
+    font-size: 8em;
+    font-weight: 700;
+    margin: 0;
+    color: #FFFFFF;
+    background: #fbf8ec;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.presentation-subtitle {
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+#social_links {
+    font-size: 20px
+}
+
+#Portfolio {
+    margin-top: 1.2rem;
+    height: 80px;
+}
+
+#portfolio_img {
+    padding: 50px;
+}
+
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 3px solid #1aafff;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
